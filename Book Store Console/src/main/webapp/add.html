@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a Book</title>
+</head>
+<body>
+    <h1>Add a Book</h1>
+    <form action="AddServlet" method="post">
+        <label>Name of Book</label>
+        <label>
+            <input type="text" name="name_book" placeholder="Book Name" required/>
+        </label>
+        <label>Price</label>
+        <label>
+            <input type="number" name="book_price" placeholder="Book Price" required>
+        </label>
+        <input type="submit" value="Add">
+    </form>
+</body>
+</html>
